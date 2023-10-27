@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Bai+Jamjuree:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    background: border-box;
+}
+body {
+    font-family: 'Bai Jamjuree';
+}
+.logo-background {
+    background-image: url(images/bg-header-mobile.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+h1 {
+    margin: 20px 20px 20px 20px;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+p {
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    font-size: 18px;
+    margin: 15px 14px 50px 14px;
+    line-height: 1.5;
+}
+.download-ios {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(171, 66%, 44%);
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 0px 1px rgba(33, 140, 124, 1);
+}
+.download-ios > p, .download-mac > p {
+    margin: 0 auto;
+    color: white;
+    font-weight: 400;
+}
+.download-ios:hover, .download-mac:hover {
+    background-color: grey;
+    box-shadow: 0px 2px 0px 1px #696969;
+}
+.download-mac {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 100%, 69%);
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 0px 1px rgba(77, 94, 255, 1);
+}
+.snippets {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    margin: 120px 30px 10px 30px;
+    font-size: 28px;
+}
+.monitor {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    height: 80%;
+    width: 80%;
+}
+.title {
+    color: hsl(210, 10%, 33%);
+    font-size: 24px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.clipboard > h2 {
+    margin-top: 190px;
+}
+.devices {
+    height: 100%;
+    width: 100%;
+}
+.supercharge > h2 {
+    margin-top: 80px;
+}
+.list-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.list-title {
+    font-weight: 600;
+    font-size: 24px;
+    color:  hsl(210, 10%, 33%);
+    margin-bottom: 0px;
+}
+.list-images1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.company-icons {
+    margin: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.company {
+    margin-bottom: 70px;
+}
+footer {
+    background-color: #F8F8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.a-footer {
+    display: flex;
+    align-items: center;
+}
+.footer-img {
+    margin: 20px 20px 40px 20px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.footer-logo {
+    margin-top: 50px;
+    height: 15%;
+    width: 15%;
+}
+@media only screen and (min-width: 1900px) {
+
+}
